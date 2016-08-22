@@ -6,4 +6,8 @@ How is the staging area different from the working directory and the repository?
 
 	The staging area is where you place only those files in a working directory that will be tracked using git.
 
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	Because the staging area only includes the files that you want to commit changes on
+	it forces you to be logical?
 
