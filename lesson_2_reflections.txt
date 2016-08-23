@@ -26,4 +26,9 @@ What is the result of merging two branches together? Why do we represent it in t
 	Merging two branches together results in a logical amalgamation of the code that has been modified in the two branches.
 	They are represented as two joining arros in the diagram because it represents the joining of the two commit streams.
 
+What are the pros and cons of Git automatic merging vs. always doing merges manually?
 
+	Git will automatically merge according to specific rules when the logic to do so is unambiguous.  When there is any
+	ambiguity at all git will require the user to merge manually in a text file by deleting the parts they don't want.  
+	While this requires some effort on the part of the programmer, it also makes sure that git doesn't introduce problems
+	unnecessarily.
