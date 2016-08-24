@@ -22,3 +22,13 @@ What is the benefit of having a copy of the last known state of the remote store
 	It means that you can always compare your version with the version stored remotely even if you are offline. 
 	With the fetch command you can update your local copy of the remote, so that you can be aware of changes there,
 	without having to merge your version with the remote version.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	If you were sitting next to somebody as you collaborated it would probably be easier than GitHub, but
+	in situations where there are not good lines of communication between collaborators GitHub makes
+	things easier.  In that situation without GitHub it might make sense to e-mail versions back and forth, 
+	incorporating collaborators changes and trying not to step on each others toes.
+
+
+
