@@ -30,5 +30,11 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	things easier.  In that situation without GitHub it might make sense to e-mail versions back and forth, 
 	incorporating collaborators changes and trying not to step on each others toes.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
 
+	If you are collaborating through GitHub then it makes sense to make changes in a separate branch so that you can
+	use a pull request to get those changes accepted by someone else and incorporated into the master branch that way.  
+	It is more work, but it helps to maintain the collaborative environment.  If you are working by yourself or 
+	have a close collaborative relationship with others you could simply do this on the master branch and communicate 
+	changes to collaborators through other channels.  This might be easier.
 
